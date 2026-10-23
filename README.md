@@ -41,6 +41,7 @@ Build a style profile, explore outfit matches with clear reasons, and preview lo
 - [Privacy notes](#privacy-notes)
 - [Developer notes](#developer-notes)
 - [Contributing](#contributing)
+- [Security](#security)
 - [Project details](#project-details)
 - [Outfit match card concept](#outfit-match-card-concept)
 
@@ -269,10 +270,11 @@ Copy-Item src/config.example.js src/config.js
 
 ## Contributing
 
-- No contribution guide or code-style configuration is specified.
-- Keep the static, classic-script loading model in mind: pages load shared scripts and relative assets directly.
-- Update [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) and this README when profile contracts, scoring behavior, configuration, or page flows change.
-- Do not commit real credentials or user photos.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for local setup, project conventions, and the pull request process. There is no configured test runner or lint command; the guide describes the recommended manual browser checks.
+
+## Security
+
+See [`SECURITY.md`](SECURITY.md) for private vulnerability reporting and data-handling notes.
 
 <br>
 
